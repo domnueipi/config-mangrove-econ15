@@ -1,3 +1,0 @@
-#map of process names to included activities
-
-Hardware-Shipment-Process-1.0 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service

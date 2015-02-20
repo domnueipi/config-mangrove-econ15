@@ -1,5 +1,0 @@
-#Concept names mapped to activity names
-
-QuoteShippingPrice = Call Postage Webservice
-HandleInsurance = Call Insurance Webservice
-HandleCustomerData = Call CRM Update Service
