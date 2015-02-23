@@ -1,6 +1,6 @@
 #map of activity names to SOA services
 
-Call Postage Webservice :: PostageCarriers
-Call Insurance Webservice :: InsuranceProvider
-Call CRM Update Service :: CRMUpdate
+Call Postage Webservice :: LaPosteServer
+Call Insurance Webservice :: AXAInsuranceServer
+Call CRM Update Service :: CRMServer
 
