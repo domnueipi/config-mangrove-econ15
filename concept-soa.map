@@ -1,0 +1,5 @@
+#Concept names mapped to service names
+
+QuoteShippingPrice = LaPosteServer
+HandleInsurance = AXAInsuranceServer
+HandleCustomerData = CRMServer
