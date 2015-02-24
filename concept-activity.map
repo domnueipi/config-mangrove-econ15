@@ -3,5 +3,4 @@
 QuoteShippingPrice = Call Postage Webservice
 HandleInsurance = Call Insurance Webservice
 HandleCustomerData = Call CRM Update Service
-HandleShipmentRequest = Check and Update Shipment Request
 HandlePackaging = Package Task :: Check and Update Shipment Request
