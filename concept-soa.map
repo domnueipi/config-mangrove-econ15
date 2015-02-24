@@ -3,3 +3,4 @@
 QuoteShippingPrice = LaPosteServer
 HandleInsurance = AXAInsuranceServer
 HandleCustomerData = CRMServer
+HandleXYZ = X :: Y :: Z
