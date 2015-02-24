@@ -1,7 +1,7 @@
 # Map for service names to the FUSE MBean name
 
-MbeanCommonPart 	= org.apache.cxf:bus.id=org.jboss.quickstarts.fuse.
-LaPosteServer 		= ,port=\"LaPosteServerImplPort\",service=\"{http://LaPosteServer.cxf.soa.domain.shipment.experiment.xrce/}LaPosteServerImplService\",type=Performance.Counter.Server
-AXAInsuranceServer 	= ,port=\"AXAInsuranceServerImplPort\",service=\"{http://AXAInsuranceServer.cxf.soa.domain.shipment.experiment.xrce/}AXAInsuranceServerImplService\",type=Performance.Counter.Server
-CRMServer 			= ,port=\"CRMServerImplPort\",service=\"{http://CRMServer.cxf.soa.domain.shipment.experiment.xrce/}CRMServerImplService\",type=Performance.Counter.Server
+MbeanCommonPart 	:: org.apache.cxf:bus.id=org.jboss.quickstarts.fuse.
+LaPosteServer 		:: ,port=\"LaPosteServerImplPort\",service=\"{http://LaPosteServer.cxf.soa.domain.shipment.experiment.xrce/}LaPosteServerImplService\",type=Performance.Counter.Server
+AXAInsuranceServer 	:: ,port=\"AXAInsuranceServerImplPort\",service=\"{http://AXAInsuranceServer.cxf.soa.domain.shipment.experiment.xrce/}AXAInsuranceServerImplService\",type=Performance.Counter.Server
+CRMServer 			:: ,port=\"CRMServerImplPort\",service=\"{http://CRMServer.cxf.soa.domain.shipment.experiment.xrce/}CRMServerImplService\",type=Performance.Counter.Server
 						
