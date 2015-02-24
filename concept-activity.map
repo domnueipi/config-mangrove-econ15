@@ -5,3 +5,6 @@ HandleInsurance = Call Insurance Webservice
 HandleCustomerData = Call CRM Update Service
 HandleShipmentRequest = Check and Update Shipment Request
 HandlePackaging = Package Task :: Check and Update Shipment Request :: XYZ
+handleXX1 = X :: X1
+handleXYZ = X :: Y ::  Z
+handleXY = X :: Y
