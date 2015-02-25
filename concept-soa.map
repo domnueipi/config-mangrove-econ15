@@ -9,3 +9,4 @@ HandleCustomerData = CRMServer
 HandleClientSetup = ClientSetup
 HandleFlightBooking = FlightBooker
 GenerateTripSummary = SummaryGenerator
+HandleHotelBooking = HotelPro
