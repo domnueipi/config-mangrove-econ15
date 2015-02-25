@@ -1,5 +1,11 @@
 #Concept names mapped to service names
 
+# Hardware Shipment Example
 QuoteShippingPrice = LaPosteServer
 HandleInsurance = AXAInsuranceServer
 HandleCustomerData = CRMServer
+
+# Travel Example
+HandleClientSetup = ClientSetup
+HandleFlightBooking = FlightBooker
+GenerateTripSummary = SummaryGenerator

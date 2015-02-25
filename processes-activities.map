@@ -1,3 +1,4 @@
 #map of process names to included activities
 
 Hardware-Shipment-Process-1.0 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service
+AlpineTrip-Process-1.0 = Input Client Details :: Client Setup :: Book Flight_Grenoble :: Book Flight_Chamonix :: Generate Travel Summary

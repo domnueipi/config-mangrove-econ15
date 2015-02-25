@@ -1,6 +1,12 @@
 #Concept names mapped to activity names
 
+# Hardware Shipment Example
 QuoteShippingPrice = Call Postage Webservice
 HandleInsurance = Call Insurance Webservice
 HandleCustomerData = Call CRM Update Service
 HandlePackaging = Package Task :: Check and Update Shipment Request
+
+#Travel Example
+HandleClientSetup = Client Setup
+HandleFlightBooking = Book Flight_Grenoble :: Book Flight_Chamonix
+GenerateTripSummary = Generate Travel Summary
