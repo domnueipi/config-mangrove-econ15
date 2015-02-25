@@ -6,7 +6,9 @@ HandleInsurance = Call Insurance Webservice
 HandleCustomerData = Call CRM Update Service
 HandlePackaging = Package Task :: Check and Update Shipment Request
 
-#Travel Example
+# Travel Example
+HandleClientRegistry = Input Client Details
 HandleClientSetup = Client Setup
-HandleFlightBooking = Book Flight_Grenoble :: Book Flight_Chamonix
+HandleFlightBooking = Book Flight :: Book Flight_Grenoble :: Book Flight_Chamonix
+HandleHotelBooking =  Book Hotel :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane
 GenerateTripSummary = Generate Travel Summary
