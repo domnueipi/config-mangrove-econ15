@@ -12,3 +12,4 @@ HandleClientSetup = Client Setup
 HandleFlightBooking = Book Flight :: Book Flight_Grenoble :: Book Flight_Chamonix
 HandleHotelBooking =  Book Hotel :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane
 GenerateTripSummary = Generate Travel Summary
+CheckReports = Final Check
