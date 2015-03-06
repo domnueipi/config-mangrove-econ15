@@ -2,9 +2,11 @@
 
 # Hardware Shipment Example
 QuoteShippingPrice = Call Postage Webservice
-HandleInsurance = Call Insurance Webservice
+#HandleInsurance = Call Insurance Webservice
+SetupExtraInsurance = Call Insurance Webservice
 HandleCustomerData = Call CRM Update Service
-HandlePackaging = Package Task :: Check and Update Shipment Request
+#HandlePackaging = Package Task :: Check and Update Shipment Request
+PackageProduct = Package Task :: Check and Update Shipment Request
 
 # Travel Example
 HandleClientRegistry = Input Client Details
