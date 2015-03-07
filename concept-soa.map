@@ -2,7 +2,8 @@
 
 # Hardware Shipment Example
 QuoteShippingPrice = LaPosteServer
-HandleInsurance = AXAInsuranceServer
+#HandleInsurance = AXAInsuranceServer
+SetupExtraInsurance = AXAInsuranceServer
 HandleCustomerData = CRMServer
 
 # Travel Example
