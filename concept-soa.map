@@ -1,10 +1,10 @@
 #Concept names mapped to service names
 
 # Hardware Shipment Example
-QuoteShippingPrice = LaPosteServer
-#HandleInsurance = AXAInsuranceServer
+RequestShippingQuote = LaPosteServer
 SetupExtraInsurance = AXAInsuranceServer
-HandleCustomerData = CRMServer
+AddPaperWorkAndMovePackage = CRMServer
+ValidatePaperWork = CRMServer
 
 # Travel Example
 HandleClientSetup = ClientSetup
