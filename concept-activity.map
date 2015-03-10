@@ -3,6 +3,7 @@
 # Hardware Shipment Example
 RequestShippingQuote = Request Quotes from Carriers :: Call Postage Webservice
 FillPostLabel = Fill a Post label
+AddPaperWorkAndMovePackage = Call CRM Update Service :: Assign a Carrier \& Prepare paperwork
 SetupExtraInsurance = Call Insurance Webservice
 PackageProduct = Package Task :: Check and Update Shipment Request
 ValidatePaperWork = Call CRM Update Service :: Add paperwork and move package for Pickup
