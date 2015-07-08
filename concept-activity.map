@@ -13,3 +13,8 @@ HandleFlightBooking = Book Flight :: Book Flight_Grenoble :: Book Flight_Chamoni
 HandleHotelBooking =  Book Hotel :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane :: Book Hotel_Argentiere :: Book Hotel_Grenoble
 GenerateTripSummary = Generate Travel Summary
 CheckReports = Final Check
+
+# Health Care Example
+HandelPerformSurgery = Perform Surgery
+HandelDecisionMaking = Make a decision 
+HandlePatientTransfer = Send Patient to Surgical Suite :: Transport Patient to Ward
