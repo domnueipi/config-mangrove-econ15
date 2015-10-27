@@ -18,3 +18,13 @@ CheckReports = Final Check
 HandelPerformSurgery = Perform Surgery
 HandelDecisionMaking = Make a decision 
 HandlePatientTransfer = Send Patient to Surgical Suite :: Transport Patient to Ward
+
+# Loan Approval Domain
+ApplicationFormFilling = Fill Loan Application Form
+OpenXerox = Call OpenXerox WS
+ValidateForm = French Form Validation :: English Form Validation :: Form Validation_OtherLanguage
+CreateLoanCase = Update Loan Case Data
+CheckCreditRating = Credit Rating Check
+EvaluateRisk = Risk Evaluation
+ValidateAmount = Amount Validation
+ApprovalBySeniorManager = Senior Manager Final Approval

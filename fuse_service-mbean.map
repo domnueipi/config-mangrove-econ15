@@ -14,4 +14,5 @@ HotelPro :: ,port="HotelProImplPort",service="{http://HotelProService.cxf.soa.do
 Wheels2Rent :: ,port="Wheels2RentImplPort",service="{http://Wheels2rentService.cxf.soa.domain.travel.experiment.xrce/}Wheels2RentImplService",type=Performance.Counter.Server
 SQLServer :: ,port="SQLServerImplPort",service="{http://SQLServer.cxf.soa.domain.travel.experiment.xrce/}SQLServerImplService",type=Performance.Counter.Server
 SummaryGenerator :: ,port="SummaryGeneratorImplPort",service="{http://SummaryService.cxf.soa.domain.travel.experiment.xrce/}SummaryGeneratorImplService",type=Performance.Counter.Server
-						
+
+# Loan Process						
