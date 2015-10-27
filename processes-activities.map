@@ -1,7 +1,17 @@
-#map of process names to included activities
+#Map of Process names with their included activities
 
-Hardware-Shipment-Process-1.0 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service
-AlpineTrip-Process-1.0 = Input Client Details :: Client Setup :: Book Flight_Grenoble :: Book Flight_Chamonix :: Generate Travel Summary
-VisitSwitzerland-Process-1.0 = Input Client Details :: Client Setup :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane
-SurgeryProcess01 = Make a decision :: Perform Surgery :: Send Patient to Surgical Suite :: Transport Patient to Ward
+##Shipment Domain
+#Hardware-Shipment-Process-1.0 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service
+
+## Travel Domain
+#AlpineTrip-Process-1.0 = Input Client Details :: Client Setup :: Book Flight_Grenoble :: Book Flight_Chamonix :: Generate Travel Summary
+#VisitSwitzerland-Process-1.0 = Input Client Details :: Client Setup :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane
+
+## Health Care
+#SurgeryProcess01 = Make a decision :: Perform Surgery :: Send Patient to Surgical Suite :: Transport Patient to Ward
+
+## Banking
 MPS-LoanApprovalProcess-v1.1 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation :: Amount Validation :: Senior Manager Final Approval 
+
+## Human Resource Management
+HR-OnBoarding-1.2 = Submit New Employee Information :: Setup Team Welcome Plan :: Grant IT Access :: Create New Employee Hire Action and Document :: Check and Sign Internal Documents :: Setup WorkStation in Cloud :: New Hire and HR Meeting :: Complete Initial Paperwork :: Review New Employees Information

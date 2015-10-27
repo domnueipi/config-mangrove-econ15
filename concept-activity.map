@@ -19,7 +19,9 @@ HandelPerformSurgery = Perform Surgery
 HandelDecisionMaking = Make a decision 
 HandlePatientTransfer = Send Patient to Surgical Suite :: Transport Patient to Ward
 
-# Loan Approval Domain
+## MPS Examples ## 
+
+# Banking Domain
 ApplicationFormFilling = Fill Loan Application Form
 OpenXerox = Call OpenXerox WS
 ValidateForm = French Form Validation :: English Form Validation :: Form Validation_OtherLanguage
@@ -28,3 +30,19 @@ CheckCreditRating = Credit Rating Check
 EvaluateRisk = Risk Evaluation
 ValidateAmount = Amount Validation
 ApprovalBySeniorManager = Senior Manager Final Approval
+
+# HR OnBoarding
+CreateNewEmployeeInfo = Submit New Employee Information
+CreateWelcomePlan4NewEmployee = Setup Team Welcome Plan
+GrantITAccess = Grant IT Access
+CreatHireActions = Create New Employee Hire Action and Document
+SignDocuments = Check and Sign Internal Documents
+SetupWorkstation = Setup WorkStation in Cloud
+NewHireMeet = New Hire and HR Meeting
+Paperwork Completion = Complete Initial Paperwork
+ReviewEmployeeInfo = Review New Employees Information
+
+
+
+
+
