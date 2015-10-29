@@ -32,15 +32,15 @@ ValidateAmount = Amount Validation
 ApprovalBySeniorManager = Senior Manager Final Approval
 
 # HR OnBoarding
-CreateNewEmployeeInfo = Submit New Employee Information
-CreateWelcomePlan4NewEmployee = Setup Team Welcome Plan
+CreateNewEmployeeInfo = Enter New Employee Information
+CreatHireActions = Create New Hire Contract Document
+HRManagerWorkload = HR Manager Checks and Signs Contract
+CreateWelcomePlan4NewEmployee = Set Team Welcome Plan
 GrantITAccess = Grant IT Access
-CreatHireActions = Create New Employee Hire Action and Document
-SignDocuments = Check and Sign Internal Documents
-SetupWorkstation = Setup WorkStation in Cloud
-NewHireMeet = New Hire and HR Meeting
-Paperwork Completion = Complete Initial Paperwork
-ReviewEmployeeInfo = Review New Employees Information
+SetupWorkstation = Setup WorkStation in Corporate Cloud
+NewHireMeet = Meeting with New Hire
+Paperwork Completion = New Employee Confirms Details
+NewEmployeeOnboardingCaseClosure = Final Check and Case Closure
 
 
 

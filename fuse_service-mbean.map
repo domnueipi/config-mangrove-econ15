@@ -16,12 +16,9 @@ SQLServer :: ,port="SQLServerImplPort",service="{http://SQLServer.cxf.soa.domain
 SummaryGenerator :: ,port="SummaryGeneratorImplPort",service="{http://SummaryService.cxf.soa.domain.travel.experiment.xrce/}SummaryGeneratorImplService",type=Performance.Counter.Server
 
 ## HR Management SOA
-AutomatedCloudSetupServer :: ,port="AutomatedCloudSetupServerImplPort",service="{http://AutomatedCloudSetupServer.cxf.soa.domain.mps.experiment.xrce/}AutomatedCloudSetupServerImplService",type=Performance.Counter.Server
+AutomatedCloudSetupServer :: ,operation="CreateCloudWorkStationSpace",port="AutomatedCloudSetupServerImplPort",service="{http://AutomatedCloudSetupServer.cxf.soa.domain.mps.experiment.xrce/}AutomatedCloudSetupServerImplService",type=Performance.Counter.Server
 
 ## Banking Domain SOA	
 AmountValServer :: ,port="AmountValServerImplPort",service="{http://AmountValServer.cxf.soa.experiment.xrce/}AmountValServerImplService",type=Performance.Counter.Server
 CreditRatingCheckService :: ,port="CreditRatingCheckServiceImplPort",service="{http://CreditRatingCheckService.cxf.soa.experiment.xrce/}CreditRatingCheckServiceImplService",type=Performance.Counter.Server 
 RiskEvalServer :: ,port="RiskEvalServerImplPort", service="{http://RiskEvalServer.cxf.soa.experiment.xrce/}RiskEvalServerImplService",type=Performance.Counter.Server
-
-
-
