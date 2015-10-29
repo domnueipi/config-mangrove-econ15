@@ -1,15 +1,15 @@
 #Concept Names mapped to Service Names
 
 ## Shipment Domain
-QuoteShippingPrice = LaPosteServer
-HandleInsurance = AXAInsuranceServer
-HandleCustomerData = CRMServer
+#QuoteShippingPrice = LaPosteServer
+#HandleInsurance = AXAInsuranceServer
+#HandleCustomerData = CRMServer
 
 ## Travel Domain
-HandleClientSetup = ClientSetup
-HandleFlightBooking = FlightBooker
-GenerateTripSummary = SummaryGenerator
-HandleHotelBooking = HotelPro
+#HandleClientSetup = ClientSetup
+#HandleFlightBooking = FlightBooker
+#GenerateTripSummary = SummaryGenerator
+#HandleHotelBooking = HotelPro
 
 ## HR Management
 SetupWorkstation = AutomatedCloudSetupServer
