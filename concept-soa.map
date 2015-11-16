@@ -6,7 +6,7 @@
 #HandleCustomerData = CRMServer
 
 ## Travel Domain
-#HandleClientSetup = ClientSetup
+HandleClientSetup = ClientSetup
 #HandleFlightBooking = FlightBooker
 #GenerateTripSummary = SummaryGenerator
 #HandleHotelBooking = HotelPro
