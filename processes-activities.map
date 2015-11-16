@@ -15,3 +15,6 @@ MPS-LoanApprovalProcess-v1.1 = Fill Loan Application Form :: Call OpenXerox WS :
 
 ## Human Resource Management
 HR-OnBoarding-1.2 = Submit New Employee Information :: Setup Team Welcome Plan :: Grant IT Access :: Create New Employee Hire Action and Document :: Check and Sign Internal Documents :: Setup WorkStation in Cloud :: New Hire and HR Meeting :: Complete Initial Paperwork :: Review New Employees Information
+
+## Detect Language
+DetectLanguageProcess_v1.0 = Enter Text :: Call open xerox service :: Show detected language

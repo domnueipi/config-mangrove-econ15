@@ -42,6 +42,10 @@ NewHireMeet = Meeting with New Hire
 Paperwork Completion = New Employee Confirms Details
 NewEmployeeOnboardingCaseClosure = Final Check and Case Closure
 
+# Detect Language
+EnterTextualInfo = Enter Text 
+OpenXeroxLanguageDetectionService = Call open xerox service
+ReportLanguage = Show detected language
 
 
 
