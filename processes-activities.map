@@ -14,7 +14,7 @@ AlpineTrip-Process-0.1 = Input Client Details :: Client Setup :: Travel Status R
 #SurgeryProcess01 = Make a decision :: Perform Surgery :: Send Patient to Surgical Suite :: Transport Patient to Ward
 
 ## Banking
-MPS-LoanApprovalProcess-v1.1 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation :: Amount Validation :: Senior Manager Final Approval 
+MPS-LoanApprovalProcess-v1.2 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation :: Amount Validation :: Senior Manager Final Approval 
 
 ## Human Resource Management
 HR-OnBoarding-1.2 = Submit New Employee Information :: Setup Team Welcome Plan :: Grant IT Access :: Create New Employee Hire Action and Document :: Check and Sign Internal Documents :: Setup WorkStation in Corporate Cloud :: New Hire and HR Meeting :: Complete Initial Paperwork :: Review New Employees Information
