@@ -21,4 +21,4 @@ AutomatedCloudSetupServer :: ,operation="CreateCloudWorkStationSpace",port="Auto
 ## Banking Domain SOA	
 AmountValServer :: ,port="AmountValServerImplPort",service="{http://AmountValServer.cxf.soa.experiment.xrce/}AmountValServerImplService",type=Performance.Counter.Server
 CreditRatingCheckService :: ,port="CreditRatingCheckServiceImplPort",service="{http://CreditRatingCheckService.cxf.soa.experiment.xrce/}CreditRatingCheckServiceImplService",type=Performance.Counter.Server 
-RiskEvalServer :: ,port="RiskEvalServerImplPort", service="{http://RiskEvalServer.cxf.soa.experiment.xrce/}RiskEvalServerImplService",type=Performance.Counter.Server
+RiskEvalServer :: ,operation="EvaluateClientRisk",port="RiskEvalServerImplPort", service="{http://RiskEvalServer.cxf.soa.experiment.xrce/}RiskEvalServerImplService",type=Performance.Counter.Server
