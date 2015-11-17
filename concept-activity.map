@@ -7,46 +7,49 @@
 #HandlePackaging = Package Task :: Check and Update Shipment Request
 
 # Travel Example
-HandleClientRegistry = Input Client Details
-HandleClientSetup = Client Setup
-HandleFlightBooking = Book Flight :: Book Flight_Grenoble :: Book Flight_Chamonix
-HandleHotelBooking =  Book Hotel :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane :: Book Hotel_Argentiere :: Book Hotel_Grenoble
-GenerateTripSummary = Generate Travel Summary
-CheckReports = Final Check
+#HandleClientRegistry = Input Client Details
+#HandleClientSetup = Client Setup
+#HandleFlightBooking = Book Flight :: Book Flight_Grenoble :: Book Flight_Chamonix
+#HandleHotelBooking =  Book Hotel :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane :: Book Hotel_Argentiere :: Book Hotel_Grenoble
+#GenerateTripSummary = Generate Travel Summary
+#CheckReports = Final Check
 
 # Health Care Example
 #HandelPerformSurgery = Perform Surgery
 #HandelDecisionMaking = Make a decision 
 #HandlePatientTransfer = Send Patient to Surgical Suite :: Transport Patient to Ward
 
-## MPS Examples ## 
+## ********** MPS Example Process ******** ## 
 
 # Banking Domain
+
 ApplicationFormFilling = Fill Loan Application Form
 OpenXerox = Call OpenXerox WS
 ValidateForm = French Form Validation :: English Form Validation :: Form Validation_OtherLanguage
 CreateLoanCase = Update Loan Case Data
 CheckCreditRating = Credit Rating Check
-EvaluateRisk = Risk Evaluation
-ValidateAmount = Amount Validation
-ApprovalBySeniorManager = Senior Manager Final Approval
+EvaluateRisk = Risk Evaluation Check
+ValidateAmount = Amount Validation Check
+ApprovalBySeniorManager = Final Approval from Senior Manager
+ReviewByCustomer = View Rejected Application :: View Accepted Application
+
 
 # HR OnBoarding
-CreateNewEmployeeInfo = Enter New Employee Information
-CreatHireActions = Create New Hire Contract Document
-HRManagerWorkload = HR Manager Checks and Signs Contract
-CreateWelcomePlan4NewEmployee = Set Team Welcome Plan
-GrantITAccess = Grant IT Access
-SetupWorkstation = Setup WorkStation in Corporate Cloud
-NewHireMeet = Meeting with New Hire
-Paperwork Completion = New Employee Confirms Details
-NewEmployeeOnboardingCaseClosure = Final Check and Case Closure
+#CreateNewEmployeeInfo = Enter New Employee Information
+#CreatHireActions = Create New Hire Contract Document
+#HRManagerWorkload = HR Manager Checks and Signs Contract
+#CreateWelcomePlan4NewEmployee = Set Team Welcome Plan
+#GrantITAccess = Grant IT Access
+#SetupWorkstation = Setup WorkStation in Corporate Cloud
+#NewHireMeet = Meeting with New Hire
+#Paperwork Completion = New Employee Confirms Details
+#NewEmployeeOnboardingCaseClosure = Final Check and Case Closure
 
 # Detect Language
-EnterTextualInfo = Enter Text 
-OpenXeroxLanguageDetectionService = Call open xerox service
-ReportLanguage = Show detected language
+#EnterTextualInfo = Enter Text 
+#OpenXeroxLanguageDetectionService = Call open xerox service
+#ReportLanguage = Show detected language
 
-
+## ********** MPS Example Process ******** ## 
 
 

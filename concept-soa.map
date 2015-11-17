@@ -12,7 +12,7 @@ HandleClientSetup = ClientSetup
 #HandleHotelBooking = HotelPro
 
 ## HR Management
-SetupWorkstation = AutomatedCloudSetupServer
+#SetupWorkstation = AutomatedCloudSetupServer
 
 ## Banking Domain
 ValidateAmount = AmountValServer
