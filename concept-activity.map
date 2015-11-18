@@ -32,7 +32,7 @@ EvaluateRisk = Risk Evaluation Check
 ValidateAmount = Amount Validation Check
 ApprovalBySeniorManager = Final Approval from Senior Manager
 ReviewByCustomer = View Rejected Application :: View Accepted Application
-
+LoanSubProcessDetails = Loan Application_WITH_Email_v1.2 :: Loan Application_NO_Email_v1.2 
 
 # HR OnBoarding
 #CreateNewEmployeeInfo = Enter New Employee Information
