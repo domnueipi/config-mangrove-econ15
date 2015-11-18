@@ -1,9 +1,9 @@
 #Concept Names mapped to Service Names
 
 ## Shipment Domain
-#QuoteShippingPrice = LaPosteServer
-#HandleInsurance = AXAInsuranceServer
-#HandleCustomerData = CRMServer
+QuoteShippingPrice = LaPosteServer
+HandleInsurance = AXAInsuranceServer
+HandleCustomerData = CRMServer
 
 ## Travel Domain
 HandleClientSetup = ClientSetup

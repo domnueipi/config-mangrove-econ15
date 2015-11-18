@@ -1,7 +1,7 @@
 #Map of Process names with their included activities
 
 ##Shipment Domain
-#Hardware-Shipment-Process-1.0 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service
+Hardware-Shipment-Process-1.2 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service
 
 ## Travel Domain
 
