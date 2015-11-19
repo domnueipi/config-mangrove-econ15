@@ -14,11 +14,15 @@ Hardware-Shipment-Process-1.2 = Call Postage Webservice :: Call Insurance Webser
 #SurgeryProcess01 = Make a decision :: Perform Surgery :: Send Patient to Surgical Suite :: Transport Patient to Ward
 
 ## Banking
+## ** LOAN Process - COMPLEX **  
+
 MPS-LoanApprovalProcess-v1.2 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Final Approval from Senior Manager :: View Rejected Application :: View Accepted Application
 #SubProcess
 Loan Application_WITH_Email_v1.2 =  Fill Loan Application Form :: Call OpenXerox WS
 Loan Application_NO_Email_v1.2   =  Fill Loan Application Form :: Call OpenXerox WS
 
+## ** LOAN Process - Simple **  
+LoanApplication_NoEmail_v1.0 = = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Final Approval from Senior Manager :: View Rejected Application :: View Accepted Application
 
 ## Human Resource Management
 #HR-OnBoarding-1.2 = Submit New Employee Information :: Setup Team Welcome Plan :: Grant IT Access :: Create New Employee Hire Action and Document :: Check and Sign Internal Documents :: Setup WorkStation in Corporate Cloud :: New Hire and HR Meeting :: Complete Initial Paperwork :: Review New Employees Information
