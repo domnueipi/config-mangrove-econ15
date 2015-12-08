@@ -16,7 +16,7 @@
 ## Banking
 ## ** LOAN Process - COMPLEX **  
 
-LoanApprovalProcess-Complex-v1.3 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation for all Other Languages :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Send email and wait for approvals from Supervisor :: Send loan rejection email to customer :: Send loan approval email to customer :: Form based approval from Supervisor :: Applicants view of rejected loan application :: Applicants view of the accepted loan application
+Loan Application_Complex_v1.3 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation for all Other Languages :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Send email and wait for approvals from Supervisor :: Send loan rejection email to customer :: Send loan approval email to customer :: Form based approval from Supervisor :: Applicants view of rejected loan application :: Applicants view of the accepted loan application
 
 #MPS-LoanApprovalProcess-v1.2 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Final Approval from Senior Manager :: View Rejected Application :: View Accepted Application
 #SubProcess
