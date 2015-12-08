@@ -33,7 +33,6 @@ ValidateAmount = Amount Validation Check
 ApprovalFromSupervisor = Send email and wait for approvals from Supervisor :: Form based approval from Supervisor
 ApprovalFromSeniorManager = Approval from Senior Manager based on Supervisor email :: Form based final approval from Senior Manager
 EmailforLoanResults = Send loan rejection email to customer :: Send loan approval email to customer
-ApprovalBySeniorManager = Form based approval from Supervisor
 ReviewByCustomer = Applicants view of rejected loan application :: Applicants view of the accepted loan application
 
 #LoanSubProcessDetails = Loan Application_WITH_Email_v1.2 :: Loan Application_NO_Email_v1.2 
