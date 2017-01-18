@@ -1,17 +1,67 @@
 #Concept names mapped to activity names
 
 # Hardware Shipment Example
+<<<<<<< HEAD
 RequestShippingQuote = Request Quotes from Carriers :: Call Postage Webservice
 FillPostLabel = Fill a Post label
 AddPaperWorkAndMovePackage = Add paperwork and move package for Pickup
 SetupExtraInsurance = Call Insurance Webservice
 PackageProduct = Package Task :: Check and Update Shipment Request
 ValidatePaperWork = Call CRM Update Service :: Assign a Carrier \& Prepare paperwork
+=======
+#QuoteShippingPrice = Call Postage Webservice
+#HandleInsurance = Call Insurance Webservice
+#HandleCustomerData = Call CRM Update Service
+#HandlePackaging = Package Task :: Check and Update Shipment Request
+>>>>>>> 846faaaebfbab38899f5572c9e973618fab385bc
 
 # Travel Example
-HandleClientRegistry = Input Client Details
-HandleClientSetup = Client Setup
-HandleFlightBooking = Book Flight :: Book Flight_Grenoble :: Book Flight_Chamonix
-HandleHotelBooking =  Book Hotel :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane :: Book Hotel_Argentiere :: Book Hotel_Grenoble
-GenerateTripSummary = Generate Travel Summary
-CheckReports = Final Check
+#HandleClientRegistry = Input Client Details
+#HandleClientSetup = Client Setup
+#HandleFlightBooking = Book Flight :: Book Flight_Grenoble :: Book Flight_Chamonix
+#HandleHotelBooking =  Book Hotel :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane :: Book Hotel_Argentiere :: Book Hotel_Grenoble
+#GenerateTripSummary = Generate Travel Summary
+#CheckReports = Final Check
+
+# Health Care Example
+#HandelPerformSurgery = Perform Surgery
+#HandelDecisionMaking = Make a decision 
+#HandlePatientTransfer = Send Patient to Surgical Suite :: Transport Patient to Ward
+
+## ********** MPS Example Process ******** ## 
+
+# Banking Domain
+
+ApplicationFormFilling = Fill Loan Application Form
+OpenXerox = Call OpenXerox WS
+ValidateForm = French Form Validation :: English Form Validation :: Form Validation for all Other Languages
+CreateLoanCase = Update Loan Case Data
+CheckCreditRating = Credit Rating Check
+EvaluateRisk = Risk Evaluation Check
+ValidateAmount = Amount Validation Check
+ApprovalFromSupervisor = Send email and wait for approvals from Supervisor :: Form based approval from Supervisor
+ApprovalFromSeniorManager = Approval from Senior Manager based on Supervisor email :: Form based final approval from Senior Manager
+EmailforLoanResults = Send loan rejection email to customer :: Send loan approval email to customer
+ReviewByCustomer = Applicants view of rejected loan application :: Applicants view of the accepted loan application
+
+#LoanSubProcessDetails = Loan Application_WITH_Email_v1.2 :: Loan Application_NO_Email_v1.2 
+
+# HR OnBoarding
+#CreateNewEmployeeInfo = Enter New Employee Information
+#CreatHireActions = Create New Hire Contract Document
+#HRManagerWorkload = HR Manager Checks and Signs Contract
+#CreateWelcomePlan4NewEmployee = Set Team Welcome Plan
+#GrantITAccess = Grant IT Access
+#SetupWorkstation = Setup WorkStation in Corporate Cloud
+#NewHireMeet = Meeting with New Hire
+#Paperwork Completion = New Employee Confirms Details
+#NewEmployeeOnboardingCaseClosure = Final Check and Case Closure
+
+# Detect Language
+#EnterTextualInfo = Enter Text 
+#OpenXeroxLanguageDetectionService = Call open xerox service
+#ReportLanguage = Show detected language
+
+## ********** MPS Example Process ******** ## 
+
+

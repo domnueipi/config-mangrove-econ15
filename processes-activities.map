@@ -1,5 +1,39 @@
-#map of process names to included activities
+#Map of Process names with their included activities
 
+<<<<<<< HEAD
 Hardware-Shipment-Process-1.0 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service :: Request Quotes from Carriers :: Fill a Post label :: Assign a Carrier \& Prepare paperwork :: Add paperwork and move package for Pickup
 AlpineTrip-Process-1.0 = Input Client Details :: Client Setup :: Book Flight_Grenoble :: Book Flight_Chamonix :: Generate Travel Summary
 VisitSwitzerland-Process-1.0 = Input Client Details :: Client Setup :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane
+=======
+##Shipment Domain
+#Hardware-Shipment-Process-1.2 = Call Postage Webservice :: Call Insurance Webservice :: Call CRM Update Service
+
+## Travel Domain
+
+#AlpineTrip-Process-0.1 = Input Client Details :: Client Setup :: Travel Status Report
+
+#AlpineTrip-Process-1.0 = Input Client Details :: Client Setup :: Book Flight_Grenoble :: Book Flight_Chamonix :: Generate Travel Summary
+#VisitSwitzerland-Process-1.0 = Input Client Details :: Client Setup :: Book Hotel_Zurich :: Book Hotel_Geneve :: Book Hotel_Lussane
+
+## Health Care
+#SurgeryProcess01 = Make a decision :: Perform Surgery :: Send Patient to Surgical Suite :: Transport Patient to Ward
+
+## Banking
+## ** LOAN Process - COMPLEX **  
+
+Loan Application_Complex_v1.3 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation for all Other Languages :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Send email and wait for approvals from Supervisor :: Send loan rejection email to customer :: Send loan approval email to customer :: Form based approval from Supervisor :: Applicants view of rejected loan application :: Applicants view of the accepted loan application
+
+#MPS-LoanApprovalProcess-v1.2 = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Final Approval from Senior Manager :: View Rejected Application :: View Accepted Application
+#SubProcess
+#Loan Application_WITH_Email_v1.2 =  Fill Loan Application Form :: Call OpenXerox WS
+#Loan Application_NO_Email_v1.2   =  Fill Loan Application Form :: Call OpenXerox WS
+
+## ** LOAN Process - Simple **  
+#LoanApplication_NoEmail_v1.0 = = Fill Loan Application Form :: Call OpenXerox WS :: French Form Validation :: English Form Validation :: Form Validation_OtherLanguage :: Update Loan Case Data :: Credit Rating Check :: Risk Evaluation Check :: Amount Validation Check :: Final Approval from Senior Manager :: View Rejected Application :: View Accepted Application
+
+## Human Resource Management
+#HR-OnBoarding-1.2 = Submit New Employee Information :: Setup Team Welcome Plan :: Grant IT Access :: Create New Employee Hire Action and Document :: Check and Sign Internal Documents :: Setup WorkStation in Corporate Cloud :: New Hire and HR Meeting :: Complete Initial Paperwork :: Review New Employees Information
+
+## Detect Language
+#DetectLanguageProcess_v1.0 = Enter Text :: Call open xerox service :: Show detected language
+>>>>>>> 846faaaebfbab38899f5572c9e973618fab385bc

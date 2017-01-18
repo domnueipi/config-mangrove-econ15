@@ -1,13 +1,34 @@
-#Concept names mapped to service names
+#Concept Names mapped to Service Names
 
+<<<<<<< HEAD
 # Hardware Shipment Example
 RequestShippingQuote = LaPosteServer
 SetupExtraInsurance = AXAInsuranceServer
 AddPaperWorkAndMovePackage = CRMServer
 ValidatePaperWork = CRMServer
+=======
+## Shipment Domain
+QuoteShippingPrice = LaPosteServer
+HandleInsurance = AXAInsuranceServer
+HandleCustomerData = CRMServer
+>>>>>>> 846faaaebfbab38899f5572c9e973618fab385bc
 
-# Travel Example
+## Travel Domain
 HandleClientSetup = ClientSetup
+<<<<<<< HEAD
 HandleFlightBooking = FlightBooker
 GenerateTripSummary = SummaryGenerator
 HandleHotelBooking = HotelPro
+=======
+#HandleFlightBooking = FlightBooker
+#GenerateTripSummary = SummaryGenerator
+#HandleHotelBooking = HotelPro
+
+## HR Management
+#SetupWorkstation = AutomatedCloudSetupServer
+
+## Banking Domain
+ValidateAmount = AmountValServer
+CheckCreditRating = CreditRatingCheckService 
+EvaluateRisk = RiskEvalServer
+>>>>>>> 846faaaebfbab38899f5572c9e973618fab385bc

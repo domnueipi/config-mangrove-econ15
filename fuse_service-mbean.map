@@ -2,16 +2,23 @@
 
 MbeanCommonPart :: org.apache.cxf:bus.id=org.jboss.quickstarts.fuse.
 
-# Shipment Example
+## Shipment Domain SOA
 LaPosteServer :: ,port="LaPosteServerImplPort",service="{http://LaPosteServer.cxf.soa.domain.shipment.experiment.xrce/}LaPosteServerImplService",type=Performance.Counter.Server
 AXAInsuranceServer :: ,port="AXAInsuranceServerImplPort",service="{http://AXAInsuranceServer.cxf.soa.domain.shipment.experiment.xrce/}AXAInsuranceServerImplService",type=Performance.Counter.Server
 CRMServer :: ,port="CRMServerImplPort",service="{http://CRMServer.cxf.soa.domain.shipment.experiment.xrce/}CRMServerImplService",type=Performance.Counter.Server
 
-# Travel Example
+## Travel Domain SOA
 FlightBooker :: ,port="FlightBookerImplPort",service="{http://FlightBookerService.cxf.soa.domain.travel.experiment.xrce/}FlightBookerImplService",type=Performance.Counter.Server
 ClientSetup ::	,operation="ClientSetupDB",port="ClientSetupImplPort",service="{http://clientWebService.cxf.soa.domain.travel.experiment.xrce/}ClientSetupImplService",type=Performance.Counter.Server
 HotelPro :: ,port="HotelProImplPort",service="{http://HotelProService.cxf.soa.domain.travel.experiment.xrce/}HotelProImplService",type=Performance.Counter.Server
 Wheels2Rent :: ,port="Wheels2RentImplPort",service="{http://Wheels2rentService.cxf.soa.domain.travel.experiment.xrce/}Wheels2RentImplService",type=Performance.Counter.Server
 SQLServer :: ,port="SQLServerImplPort",service="{http://SQLServer.cxf.soa.domain.travel.experiment.xrce/}SQLServerImplService",type=Performance.Counter.Server
 SummaryGenerator :: ,port="SummaryGeneratorImplPort",service="{http://SummaryService.cxf.soa.domain.travel.experiment.xrce/}SummaryGeneratorImplService",type=Performance.Counter.Server
-						
+
+## HR Management SOA
+AutomatedCloudSetupServer :: ,operation="CreateCloudWorkStationSpace",port="AutomatedCloudSetupServerImplPort",service="{http://AutomatedCloudSetupServer.cxf.soa.domain.mps.experiment.xrce/}AutomatedCloudSetupServerImplService",type=Performance.Counter.Server
+
+## Banking Domain SOA	
+AmountValServer :: ,port="AmountValServerImplPort",service="{http://AmountValServer.cxf.soa.experiment.xrce/}AmountValServerImplService",type=Performance.Counter.Server
+CreditRatingCheckService :: ,port="CreditRatingCheckServiceImplPort",service="{http://CreditRatingCheckService.cxf.soa.experiment.xrce/}CreditRatingCheckServiceImplService",type=Performance.Counter.Server 
+RiskEvalServer :: ,port="RiskEvalServerImplPort",service="{http://RiskEvalServer.cxf.soa.experiment.xrce/}RiskEvalServerImplService",type=Performance.Counter.Server
